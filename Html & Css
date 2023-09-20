@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+     
+     body{
+      background-color: rgb(157, 189, 209);
+     }
+     
+     .qr-code{
+      background-color: white;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 12px;
+      text-align: center;
+      border-radius: 16px;
+     } 
+
+     .image{
+      width: 230px;
+      border-radius: 16px;
+     }
+      
+     .first-text{
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: arial;
+     }
+
+     .second-text{
+      color: gray;
+      font-size: 12px;
+     }
+    </style>
+  </head>
+
+  <body>
+    <div class="qr-code">
+
+    <img class="image" src="thumbnails/image-qr-code.png" alt="qr-code">
+    
+    <p class="first-text">Improve your front-end <br> skills by building projects</p>
+
+    <p class="second-text">Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level </p>
+  </div>
+
+  </body>
+</html>
